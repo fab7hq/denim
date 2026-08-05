@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and design ideas
+    url: https://github.com/fab7hq/fab7/discussions
+    about: Ask for help or discuss a proposal with the Fab7 community.
+  - name: Private security report
+    url: https://github.com/fab7hq/denim/security/advisories/new
+    about: Report a suspected Denim vulnerability privately.

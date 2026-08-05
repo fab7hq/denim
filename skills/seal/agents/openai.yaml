@@ -1,0 +1,7 @@
+interface:
+  display_name: "Denim Seal"
+  short_description: "Seal every pending Denim ask in this workspace."
+  default_prompt: "Seal the current pending Denim ask batch."
+
+policy:
+  allow_implicit_invocation: false

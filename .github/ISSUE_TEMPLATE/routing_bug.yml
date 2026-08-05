@@ -1,0 +1,47 @@
+name: Ask or seal defect
+description: Report a reproducible Denim discovery, routing, capture, or sealing defect.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: Sanitize prompts and results. Never post credentials, private source, or an unpatched vulnerability.
+  - type: input
+    id: versions
+    attributes:
+      label: Denim and Fab7 versions
+      placeholder: Denim 0.1.0, Fab7 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Host
+      options:
+        - Claude Code
+        - Codex CLI
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Capability discovery or selection
+        - Ask result capture
+        - Seal or Fab7 binding
+        - Installation or host package
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal sanitized reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

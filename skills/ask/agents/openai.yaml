@@ -1,0 +1,7 @@
+interface:
+  display_name: "Denim Ask"
+  short_description: "Delegate one exact query and retain its result."
+  default_prompt: "Delegate this exact query through one live capability."
+
+policy:
+  allow_implicit_invocation: false
